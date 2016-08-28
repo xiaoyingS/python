@@ -22,6 +22,7 @@ class Dhttpoutputer(object):
             n=n+1
         work.save(u'douban.xls'.encode('utf8'))
         '''
+		#html形式输出
         fount=open('douban.html','w')
         fount.write('<html>')
         fount.write('<meta http_equiv="Content-Type" content="text/html" charset="utf-8">')
